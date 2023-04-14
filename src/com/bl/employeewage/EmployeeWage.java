@@ -8,7 +8,8 @@ public class EmployeeWage {
     public static final int EMP_WORKING_DAY = 20;
     public static final int EMP_WORKING_HRS= 100;
 
-    public static void main(String[] args) {
+
+    public void empWageMethod(){
 
         int empHrs = 0;
         int totalEmpHrs = 0;
@@ -47,4 +48,12 @@ public class EmployeeWage {
 
     }
 
+    public static void main(String[] args) {
+
+        EmployeeWage obj = new EmployeeWage();
+        obj.empWageMethod();
+
+
+
+    }
 }
